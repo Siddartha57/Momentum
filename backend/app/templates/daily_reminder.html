@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<p>Good morning {{ name }}!</p>
+<p>You have <strong>{{ task_count }}</strong> tasks scheduled for today. Stay consistent and protect your streak!</p>
+<div style="text-align: center;">
+    <a href="{{ frontend_url }}/app/tasks" class="btn">View Tasks</a>
+</div>
+<p style="margin-top: 20px; font-size: 14px;">Small promises kept daily become identity.</p>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<p>Hello {{ name }},</p>
+<p>Welcome to Momentum! To unlock all features and confirm your account, please verify your email address.</p>
+<div style="text-align: center;">
+    <a href="{{ verify_link }}" class="btn">Verify Email</a>
+</div>
+{% endblock %}

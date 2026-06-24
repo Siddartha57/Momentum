@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<p>Hey {{ name }},</p>
+<p>⚠️ Your <strong>{{ streak_days }}-day streak</strong> is at risk! You haven't logged any study hours today.</p>
+<p>Don't let your hard work go to waste. Even a short session counts!</p>
+<div style="text-align: center;">
+    <a href="{{ frontend_url }}/app/pomodoro" class="btn">Start a Session</a>
+</div>
+{% endblock %}
